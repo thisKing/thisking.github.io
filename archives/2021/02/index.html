@@ -364,6 +364,19 @@
         	<!-- Theme by <a href="https://github.com/cofess" target="_blank"> cofess </a>base on <a href="https://github.com/cofess/hexo-theme-pure" target="_blank">pure</a>. -->
         </div>
     </div>
+    <link rel="stylesheet" href="/dist/APlayer.min.css">
+    <style>
+        .aplayer .aplayer-list ol, .aplayer .aplayer-list ol li, .aplayer.aplayer-fixed .aplayer-info{
+            background: linear-gradient(to right, #1a2433 0%, #253449 80%, #253449 100%) !important;
+            border-color: #9e9e9e;
+        }
+        .aplayer .aplayer-info .aplayer-controller .aplayer-time .aplayer-icon:hover path{
+            fill: white !important;
+        }
+    </style>
+    <div id="aplayer"></div>
+    <script type="text/javascript" src="/dist/APlayer.min.js"></script>
+    <script type="text/javascript" src="/dist/music.js"></script>
 </footer>
   <script src="//cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
 <script>
