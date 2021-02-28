@@ -3,11 +3,11 @@
   <title>边个懂</title>
   
   
-  <link href="https://thisking.github.io/atom.xml" rel="self"/>
+  <link href="http://example.com/atom.xml" rel="self"/>
   
-  <link href="https://thisking.github.io/"/>
+  <link href="http://example.com/"/>
   <updated>2021-02-28T09:33:11.478Z</updated>
-  <id>https://thisking.github.io/</id>
+  <id>http://example.com/</id>
   
   <author>
     <name>边个懂</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>JS数据类型</title>
-    <link href="https://thisking.github.io/2021/02/28/JS%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/"/>
-    <id>https://thisking.github.io/2021/02/28/JS%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</id>
+    <link href="http://example.com/2021/02/28/JS%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/"/>
+    <id>http://example.com/2021/02/28/JS%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</id>
     <published>2021-02-28T09:07:46.000Z</published>
     <updated>2021-02-28T09:33:11.478Z</updated>
     
@@ -35,17 +35,17 @@
     
     
     
-    <category term="前端" scheme="https://thisking.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    <category term="前端" scheme="http://example.com/categories/%E5%89%8D%E7%AB%AF/"/>
     
     
-    <category term="JavaScript" scheme="https://thisking.github.io/tags/JavaScript/"/>
+    <category term="JavaScript" scheme="http://example.com/tags/JavaScript/"/>
     
   </entry>
   
   <entry>
     <title>this 指向问题</title>
-    <link href="https://thisking.github.io/2021/02/28/this%20%E6%8C%87%E5%90%91%E9%97%AE%E9%A2%98/"/>
-    <id>https://thisking.github.io/2021/02/28/this%20%E6%8C%87%E5%90%91%E9%97%AE%E9%A2%98/</id>
+    <link href="http://example.com/2021/02/28/this%20%E6%8C%87%E5%90%91%E9%97%AE%E9%A2%98/"/>
+    <id>http://example.com/2021/02/28/this%20%E6%8C%87%E5%90%91%E9%97%AE%E9%A2%98/</id>
     <published>2021-02-28T08:56:07.000Z</published>
     <updated>2021-02-28T09:29:49.320Z</updated>
     
@@ -60,10 +60,10 @@
     
     
     
-    <category term="前端" scheme="https://thisking.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    <category term="前端" scheme="http://example.com/categories/%E5%89%8D%E7%AB%AF/"/>
     
     
-    <category term="JavaScript" scheme="https://thisking.github.io/tags/JavaScript/"/>
+    <category term="JavaScript" scheme="http://example.com/tags/JavaScript/"/>
     
   </entry>
   
