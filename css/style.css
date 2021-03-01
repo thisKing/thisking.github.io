@@ -4377,6 +4377,7 @@ img.hover-up:hover,
 .hover-grow:hover {
   -webkit-transform: translate3d(0, -2px, 0);
   transform: translate3d(0, -2px, 0);
+  box-shadow: 0 1px 1px rgb(0 0 0 / 50%);
 }
 
 fieldset {
@@ -4739,13 +4740,14 @@ a.label:focus {
   -webkit-line-clamp: 2;
   font-size: 18px;
   line-height: 32px;
-  height: 64px;
+  height: 80px;
   word-break: break-all !important;
   word-wrap: break-word !important;
 }
 
 .panel-body {
   padding: 15px;
+  padding-bottom: 0px;
 }
 
 .panel-body:before,
@@ -4788,6 +4790,8 @@ a.label:focus {
   border-top: 1px solid #f2f2f2;
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 3px;
+  background-color: #f6f6f6;
+  color: #8B8B8C;
 }
 
 /**
@@ -5913,6 +5917,7 @@ body.no-sidebar .sidebar {
 
 .main .article-list article {
   border-bottom: 1px solid #f2f2f2;
+  border-bottom: 1px solid rgba(178,186,194,.15);
 }
 
 .main .article-list article:last-child {
@@ -9208,3 +9213,55 @@ body.okayNav-loaded {
     max-height: 200px;
   }
 }
+
+/* hwl 自己加的样式 */
+.article-desc{
+  line-height: 20px;
+  font-size: 14px;
+  padding-top: 10px;
+  color: #666;
+  overflow:hidden; 
+  text-overflow:ellipsis;
+  display:-webkit-box; 
+  -webkit-box-orient:vertical;
+  -webkit-line-clamp:2; 
+}
+
+.hwl-home-list .article-title{
+  color: #2e3135;
+  font-weight: bold;
+}
+.hwl-home-list .article-title:hover {
+  text-decoration: underline;
+}
+.hwl-nav{
+  margin-bottom: 0px;
+  border-top: 1px solid hsla(0,0%,59.2%,.1);
+  border-bottom: 1px solid hsla(0,0%,59.2%,.1);
+  width: calc(100% + 60px);
+  padding: 10px 0px;
+  position: relative;
+  margin-left: -30px;
+  padding-left: 30px;
+}
+.hwl-nav ul {
+  margin-bottom: 0px;
+}
+
+.bgd-panel-tags{
+  box-shadow: 0 1px 3px 0 rgb(4 5 13 / 23%);
+  border-radius: 5px;
+}
+
+/* .widget{
+  background-color: #fff;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 5%);
+  border-radius: 2px;
+} */
+/* .widget .widget-title{
+  border-bottom: 1px solid hsla(0,0%,59.2%,.1);
+  margin: 0px;
+  padding: 12px;
+  font-size: 16px;
+  margin-bottom: 20px;
+} */
