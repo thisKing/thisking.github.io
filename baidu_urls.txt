@@ -1,2 +1,2 @@
-http://example.com/2021/02/28/JS%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/
-http://example.com/2021/02/28/this%20%E6%8C%87%E5%90%91%E9%97%AE%E9%A2%98/
+https://webbgd.cn/2021/02/28/JS%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/
+https://webbgd.cn/2021/02/28/this%20%E6%8C%87%E5%90%91%E9%97%AE%E9%A2%98/
